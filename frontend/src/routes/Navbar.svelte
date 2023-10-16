@@ -26,7 +26,7 @@
         <a class="m-2 w-10 h-10 text-gray-800 dark:text-white inline self-center" href="/">
             <HomeSolid class='w-full h-full'/>
         </a>
-        <div class='w-1/2 mx-auto grid grid-cols-3 items-center justify-items-center space-x-4'>
+        <div class='w-1/3 h-full mx-auto grid grid-flow-col auto-cols-auto items-center justify-items-center space-x-4'>
             <DropdownButton title="WebDeb" values={webDeb}/>
             <DropdownButton title="Videogames" values={games}/>
             <DropdownButton title="IoT" values={iot}/>
