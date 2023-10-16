@@ -1,6 +1,8 @@
 <script>
     import { Sidebar, SidebarDropdownItem, SidebarDropdownWrapper, SidebarGroup, SidebarItem, SidebarWrapper } from 'flowbite-svelte';
-    import { GithubSolid, LinkedinSolid, FilterSolid } from 'flowbite-svelte-icons';
+    import GithubSolid from '../lib/icons/GithubSolid.svelte';
+    import LinkedinSolid from '../lib/icons/LinkedinSolid.svelte';
+    import FilterSolid from '../lib/icons/FilterSolid.svelte';
     import { MultiSelect } from 'flowbite-svelte';
     export var css_class = '';
 
@@ -19,7 +21,7 @@
         <SidebarGroup>
             <SidebarDropdownWrapper label="Filters" isOpen>
                 <svelte:fragment slot="icon">
-                  <FilterSolid class="w-5 h-5 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white" />
+                  <FilterSolid css_class="w-5 h-5 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white" />
                 </svelte:fragment>
                 <SidebarDropdownItem label="i1" />
                 <SidebarDropdownItem label="i2" />
@@ -31,12 +33,12 @@
         <SidebarGroup border>
             <SidebarItem label="Github" href="https://github.com/f-escarate" target="_blank" rel="noopener noreferrer">
             <svelte:fragment slot="icon">
-                <GithubSolid class="w-5 h-5 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white" />
+                <GithubSolid css_class="w-5 h-5 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white" />
             </svelte:fragment>
             </SidebarItem>
             <SidebarItem label="LinkedIn" href="https://www.linkedin.com/in/felipe-esc%C3%A1rate-793380152/" target="_blank" rel="noopener noreferrer">
                 <svelte:fragment slot="icon">
-                <LinkedinSolid class="w-5 h-5 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white" />
+                <LinkedinSolid css_class="w-5 h-5 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white" />
                 </svelte:fragment>
             </SidebarItem>
         </SidebarGroup>

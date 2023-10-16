@@ -1,5 +1,5 @@
 <script>
-    import { HomeSolid } from 'flowbite-svelte-icons';
+    import HomeSolid from '../lib/icons/HomeSolid.svelte';
     import DropdownButton from './DropdownButton.svelte';
     export let css_class = '';
 
