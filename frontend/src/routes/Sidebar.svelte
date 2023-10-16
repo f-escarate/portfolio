@@ -2,6 +2,7 @@
     import { Sidebar, SidebarDropdownItem, SidebarDropdownWrapper, SidebarGroup, SidebarItem, SidebarWrapper } from 'flowbite-svelte';
     import { GithubSolid, LinkedinSolid, FilterSolid } from 'flowbite-svelte-icons';
     import { MultiSelect } from 'flowbite-svelte';
+    export var css_class = '';
 
     let selected = [];
     let filters = [
@@ -13,7 +14,7 @@
     ];
 </script>
 
-<Sidebar class='h-[88vh]'>
+<Sidebar class={css_class}>
     <SidebarWrapper class='h-full'>
         <SidebarGroup>
             <SidebarDropdownWrapper label="Filters" isOpen>
@@ -39,5 +40,5 @@
                 </svelte:fragment>
             </SidebarItem>
         </SidebarGroup>
-        </SidebarWrapper>
+    </SidebarWrapper>
   </Sidebar>
