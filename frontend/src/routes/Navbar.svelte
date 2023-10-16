@@ -1,6 +1,7 @@
 <script>
     import { HomeSolid } from 'flowbite-svelte-icons';
     import DropdownButton from './DropdownButton.svelte';
+    export let css_class = '';
 
     let webDeb = [
         {name: 'Django', href: 'django'},
@@ -20,8 +21,8 @@
     
 </script>
 
-<main>
-    <div class='px-5 py-0 flex h-[12vh] bg-slate-500 bg-opacity-25'>
+<main class={css_class}>
+    <div class='px-5 py-0 flex h-full bg-slate-500 bg-opacity-25'>
         <a class="m-2 w-10 h-10 text-gray-800 dark:text-white inline self-center" href="/">
             <HomeSolid class='w-full h-full'/>
         </a>
