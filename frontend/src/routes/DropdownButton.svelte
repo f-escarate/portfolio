@@ -13,8 +13,8 @@
 
 
 <main>
-    <Button class={buttonStyle} pill>
-        {title}<ChevronDownOutline class="w-3 h-3 ml-2 text-primary-800 dark:text-white inline" />
+    <Button color='dark' class={buttonStyle} pill>
+        {title}<ChevronDownOutline class="w-3 h-3 ml-2 text-white inline" />
     </Button>    
     <Dropdown class="w-44 z-20">
         {#each values as element, i}

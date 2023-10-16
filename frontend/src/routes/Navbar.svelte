@@ -21,8 +21,8 @@
 </script>
 
 <main>
-    <div class='px-5 py-0 flex h-[12vh] bg-blue-200'>
-        <a class="m-2 w-10 h-10 text-primary-800 dark:text-white inline self-center" href="/">
+    <div class='px-5 py-0 flex h-[12vh] bg-slate-500 bg-opacity-25'>
+        <a class="m-2 w-10 h-10 text-gray-800 dark:text-white inline self-center" href="/">
             <HomeSolid class='w-full h-full'/>
         </a>
         <div class='w-1/2 mx-auto grid grid-cols-3 items-center justify-items-center space-x-4'>
