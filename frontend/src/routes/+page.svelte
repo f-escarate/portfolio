@@ -13,7 +13,7 @@
         <Sidebar css_class='h-[88vh]'/>
         <div class='p-4 mx-10 my-5'>
             <h1 class='text-4xl font-bold'>{home_post.title}</h1>
-            <div class='my-4 text-l'>
+            <div id='webdev' class='my-4 text-l'>
                 {home_post.description}
             </div>
         </div>

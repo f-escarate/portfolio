@@ -1,9 +1,8 @@
 <script>
-    import HomeSolid from '../lib/icons/HomeSolid.svelte';
-    import DropdownButton from './DropdownButton.svelte';
+    import HrefButton from './HrefButton.svelte';
     export let css_class = '';
 
-    let webDeb = [
+    let webDev = [
         {name: 'Django', href: 'django'},
         {name: 'Svelte', href: 'svelte'},
         {name: 'React', href: 'react'}
@@ -18,18 +17,21 @@
         {name: 'Raspberry Pi', href: 'raspberry-pi'},
         {name: 'ESP32', href: 'esp32'}
     ]
+    let ml = [
+        {name: 'Arduino', href: 'arduino'},
+        {name: 'Raspberry Pi', href: 'raspberry-pi'},
+        {name: 'ESP32', href: 'esp32'}
+    ]
     
 </script>
 
 <main class={css_class}>
     <div class='px-5 py-0 flex h-full bg-slate-500 bg-opacity-25'>
-        <a class="m-2 w-10 h-10 text-gray-800 dark:text-white inline self-center" href="/">
-            <HomeSolid class='w-full h-full'/>
-        </a>
-        <div class='w-1/3 h-full mx-auto grid grid-flow-col auto-cols-auto items-center justify-items-center space-x-4'>
-            <DropdownButton title="WebDeb" values={webDeb}/>
-            <DropdownButton title="Videogames" values={games}/>
-            <DropdownButton title="IoT" values={iot}/>
+        <div class='w-full h-full mx-auto grid grid-flow-col auto-cols-auto items-center place-content-center gap-16'>
+            <HrefButton title="WebDev" values={webDev} element_id='webdev'/>
+            <HrefButton title="Videojuegos" values={games} element_id='games'/>
+            <HrefButton title="Machine Learning" values={ml} element_id='ML'/>
+            <HrefButton title="IoT" values={iot} element_id='IoT'/>
         </div>
     </div>
 </main>

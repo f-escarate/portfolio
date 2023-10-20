@@ -1,5 +1,5 @@
 <script>
-    import { Dropdown, DropdownItem, DropdownDivider, Button } from 'flowbite-svelte';
+    import { Dropdown, DropdownItem, Button } from 'flowbite-svelte';
     import ChevronDownOutline from '../lib/icons/ChevronDownOutline.svelte';
     var buttonStyle = 'text-3xl transition-transform hover:scale-125 my-auto px-2'
     export var title = 'Button';
