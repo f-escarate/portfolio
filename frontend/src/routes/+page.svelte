@@ -6,7 +6,7 @@
 
 <main class='h-full bg-blue-100 font-mono scroll-smooth'>
     <Header></Header>
-    <Navbar css_class='h-[12vh] relative'/>
+    <Navbar css_class='h-[12vh] w-full sticky top-0 z-10'/>
     <div class='relative'>
         <Section name='webdev'></Section>
         <Section name='games'></Section>
