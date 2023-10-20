@@ -7,7 +7,7 @@
     function handleClick() {
         let el = document.getElementById(element_id);
         window.scrollTo({
-			top: el.offsetTop,
+			top: el.offsetTop+window.innerHeight-el.offsetHeight,
 			behavior: 'smooth'
 		})
     }

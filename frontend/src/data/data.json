@@ -3,6 +3,78 @@
         "title": "Inicio",
         "url": "/",
         "description": "En esta página iré poniendo las cosas que he hecho. Por ahora está en desarrollo..."
+    },
+    "webdev": {
+        "title": "Desarrollo web",
+        "elements" : [
+            {
+                "title": "Aplicaciones con Django",
+                "description": "Se ha trabajado tanto a nivel de frontend como backend, esto para los cursos 'Ingeniería de Software' y 'Taller Avanzado de Desarrollo Agil y Lean'."
+            },
+            {
+                "title": "Aplicación para la despensa",
+                "description": "Aplicación hecha para dispositivos Android. Permite llevar un control de los productos que hay en la despensa. Está hecha con React Native, Golang y MongoDB.",
+                "url": "https://github.com/f-escarate/InventoryApp"
+            },
+            {
+                "title": "Recomendador de plataformas CR2",
+                "description": "Proyecto realizado en el contexto del curso 'Proyecto de Software' de la Universidad de Chile. Permite buscar y filtrar plataformas del CR2 según ciertos metadatos meteorológicos, climatológicos, etc. Cuenta con un chatbot que recomienda plataformas según las necesidades del usuario. Está hecha en React, FastAPI y se usa Llama2 como modelo de lenguaje, el cual se puede utilizar gracias a langchain. Además se utilizó Docker para el desarrollo de la aplicación.",
+                "url": "https://www.cr2.cl/"
+            }
+        ]
+    },
+    "games": {
+        "title": "Videojuegos",
+        "elements" : [
+            {
+                "title": "Froggy Against the World",
+                "description": "Juego de ritmo para dispositivos móviles (hecho en Godot 3).",
+                "url": "https://bluemili.itch.io/froggy-against-the-world"
+            },
+            {
+                "title": "Chaotic Ocean",
+                "description": "Juego multijugador de 2 a 4 jugadores (hecho en Godot 4).",
+                "url": "https://bluemili.itch.io/chaotic-ocean"
+            },
+            {
+                "title": "AOne Games (primera práctica profesional)",
+                "description": "En mi primera práctica trabajé en el port del juego Omen of Sorrow para Nintendo Switch. Principalmente me dedique a optimizar el juego los casos en que la consola no podía rendir como lo esperado. Se utilizó Unreal Engine 4 (y por ende C++).",
+                "url": "https://www.aonegames.com/"
+            }
+        ]
+    },
+    "ML": {
+        "title": "Machine Learning",
+        "elements" : [
+            {
+                "title": "Análisis de pobreza en Chile a partir de encuestas CASEN",
+                "description": "Para el curso de 'Minería de Datos' realizamos un análisis de los datos de las encuestas CASEN, usando distintos algoritmos de clasificación (ej: KNN, Naive Bayes, Random Forest, etc) y de clustering (ej: DBScan, Kmeans). Se utilizó Python y las librerías scikit-learn, pandas, numpy, matplotlib y seaborn. Se puede encontrar tanto los reportes de las 3 iteraciones como el código, en el siguiente enlace.",
+                "url": "http://f-escarate.tech/mineria"
+            },
+            {
+                "title": "Competencias Procesamiento del Lenguaje Natural",
+                "description": "En el contexto del curso de 'Procesamiento del Lenguaje Natural' se realizaron dos competencias, la primera se trataba sobre clasificar un tweets chilenos según 3 categorías: discurso de odio, incivilidad o normal. Si bien probamos distintos modelos (BERT, LSTM, GRU, etc), lo que nos dio mejores resultados fue utilizar un stacking de los modelos más simples que probamos, i.e: Naive Bayes, SVM, MLP, ExtraTrees, CatBoost y LightGBM..\n\n La segunda competencia consistió en una tarea tipo NER (Name Entity Recognition) usando un corpus de listas de espera, las cuales tenían las entidades [Disease, Body_Part, Medication, Procedures y Family_Member]. Se usararon GRU, LSTM y distintas versiones de BERT, sin embargo todas entregaban resultados similares. También se probó usando capas de embeddings en español, pero esto no mejoró mucho los resultados."
+            },
+            {
+                "title": "Gaussian Splatting",
+                "description": "Para mi trabajo de título, se está trabajando en la obtención de representaciones de objetos reales mediante Gaussian Splatting, de modo que se puedan importar en un museo virtual hecho en Unity."
+            }
+        ]
+    },
+    "IoT": {
+        "title": "Internet of Things",
+        "elements" : [
+            {
+                "title": "Comunicación inalámbrica entre Raspberry Pi y esp32",
+                "description": "Se manejó la transferencia de paquetes entre una Raspberry Pi y una esp32 mediante distintos protocolos de comunicación. Se pueden enviar paquetes por Wi-Fi usando sockets TCP/UDP, y por BLE usando el protocolo GATT. Esto fue hecho usando Python por el lado de la Raspberry y C++ por el lado de la esp32 (con ESP-IDF). Cabe destacar que se creó una interfaz gráfica (con PyQt) para poder cambiar los protocolos de comunicación y visualizar los resultados.",
+                "url": "https://github.com/f-escarate/IoT"
+            },
+            {
+                "title": "Uso de sensores Bosch",
+                "description": "Se programó la obtención de datos de los sensores BME688 (sensor de calidad del aire) y BMI270 (IMU) usando una esp32. Se usó el framework ESP-IDF y comunicación I2C. También se creó interfaz gráfica (con PyQt) para poder visualizar los datos obtenidos y editar la configuración de los sensores. Esto era posible conectando la esp32 por USB a un computador para que se comunicaran a través de UART.",
+                "url": "https://github.com/f-escarate/EmbebidosYSensores"
+            }
+        ]
     }
         
     
