@@ -5,7 +5,7 @@
 </script>
 
 
-<div class='w-4/6 mx-auto my-10'>
+<div class='w-5/6 lg:w-4/6 mx-auto my-10'>
     <h1 id={name} class='text-5xl font-bold mb-10'> {data[name].title} </h1>
     {#each elements as element}
         <div class='my-4 mx-8 p-6 rounded-xl bg-sky-200'>

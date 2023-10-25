@@ -5,8 +5,8 @@
 </script>
 
 <main>
-    <div class='h-[80vh] grid place-content-center pr-[300px]'>
-        <div class='h-[90%] p-2 flex flex-wrap'>
+    <div class='md:h-[80vh] grid place-content-center lg:pr-[300px]'>
+        <div class='h-[90%] p-2 flex flex-nowrap'>
             <div class='h-full m-4 p-2 grid place-content-center'>
                 <h1 class='m-2 p-1 text-6xl'>Felipe Escárate</h1>
                 <h2 class='m-2 p-1 text-l color-slate-500'>Estudiante de 5to año de Ingeniería Civil en Computación</h2>
