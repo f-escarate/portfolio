@@ -12,7 +12,7 @@
         <Description description={data[name].description} links={data[name].links}/>
     {/if}
     {#each elements as element}
-        <div class='my-4 mx-8 p-6 rounded-xl bg-sky-200'>
+        <div class='my-4 mx-8 p-6 rounded-sm bg-sky-200'>
             <h1 class='text-2xl font-bold'>{element.title}</h1>
             <div class='m-4'>
                 <p class='text-xl whitespace-pre-wrap'>{element.description}</p>
