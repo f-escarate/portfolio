@@ -75,7 +75,24 @@
                 "url": "https://github.com/f-escarate/EmbebidosYSensores"
             }
         ]
+    },
+    "contact": {
+        "title": "Información personal",
+        "description":  ["Soy un estudiante de quinto año de Ingeniería Civil en Computación de la Universidad de Chile. Me gusta mucho programar, por eso he hecho cosas en distintos ámbitos.\n\n Por ejemplo para mi trabajo de título estoy trabajando en la implementación de un sistema de crowdsourcing para un museo virtual, es decir, que los usuarios puedan aportar contenido al museo mediante videos de los objetos. Esto involucra aspectos de frontend, backend, Machine Learning y Computación gráfica, ya que, es necesario un sitio web en el que los usuarios suban los videos para procesarlos Backend, de tal modo que se obtengan representaciones tridimensionales reconocibles por el motor gráfico. Todo este proceso estaría automatizado, y en un principio tengo pensado usar, ", " para obtener las representaciones tridimensionales.\n\n ‣ ",
+         "\n\n ‣ Correo personal: felipeescaratefernandez@gmail.com\n\n ‣ Correo de la universidad: felipe.escarate@ug.uchile.cl\n\n ‣ Teléfono: +569 566 814 16"],
+        "links": [
+            {
+                "name": "Gaussian Splatting",
+                "url": "https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/"
+            },
+            {
+                "name": "Curriculum Vitae",
+                "url": "https://drive.google.com/file/d/1Py1w4S5opI8NvNzqg-vrKgXUaK58_ws-/view?usp=sharing"
+            }
+        ],
+        "elements": []
     }
+
         
     
 }

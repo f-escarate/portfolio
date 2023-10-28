@@ -12,6 +12,7 @@
         <Section name='games'></Section>
         <Section name='ML'></Section>
         <Section name='IoT'></Section>
+        <Section name='contact'></Section>
     </div>
 </main>
 
