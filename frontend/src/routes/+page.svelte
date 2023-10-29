@@ -4,7 +4,7 @@
     import Section from './Section.svelte';
 </script>
 
-<main class='h-full relative mb-0 bg-blue-100 font-mono scroll-smooth'>
+<main class='h-full relative mb-0 bg-blue-100 font-roboto scroll-smooth'>
     <Header></Header>
     <Navbar css_class='h-[12vh] w-full sticky top-0 z-10'/>
     <div class='relative'>
