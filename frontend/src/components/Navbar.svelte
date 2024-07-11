@@ -1,5 +1,5 @@
 <script>
-    import HrefButton from './HrefButton.svelte';    
+    import HrefButton from './HrefButton.svelte';   
 </script>
 
 <div class='sticky top-0 z-10'>

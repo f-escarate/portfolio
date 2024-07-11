@@ -1,5 +1,5 @@
 <script>
-    import Section from './Section.svelte';
+    import Section from '../components/Section.svelte';
 </script>
 
 <div class='flex flex-col items-center w-[100%]'>
