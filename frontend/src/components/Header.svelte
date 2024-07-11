@@ -11,7 +11,7 @@
     }
 </script>
 
-<main class='md:h-[80vh] grid place-content-center lg:pr-[300px]'>
+<div class='md:h-[90vh] grid place-content-center lg:pr-[300px]'>
     <div class='h-[90%] p-2 flex flex-nowrap'>
         <div class='h-full m-4 p-2 flex flex-col'>
             <h1 class='m-2 p-1 text-6xl'>Felipe Escárate F.</h1>
@@ -36,4 +36,4 @@
             </div>
         </div>
     </div>
-</main>
+</div>
