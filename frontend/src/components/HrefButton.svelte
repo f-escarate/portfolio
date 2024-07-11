@@ -1,6 +1,4 @@
 <script>
-    import { Button } from 'flowbite-svelte';
-    var buttonStyle = 'text-3xl rounded-sm transition-transform bg-sky-200 text-black hover:bg-sky-100 hover:scale-125 my-auto px-2 bg-opacity-75'
     export var title = 'Button';
     export var element_id = '';
 
@@ -14,8 +12,11 @@
 </script>
 
 
-<main>
-    <Button class={buttonStyle} on:click={handleClick}>
+<button 
+    class='h-[90%] rounded-sm transition-transform bg-sky-200 hover:bg-sky-100 hover:scale-110 lg:px-2 bg-opacity-75'
+    on:click={handleClick}>
+    <p class='text-3xl text-black leading-none'>
         {title}
-    </Button>    
-</main>
+    </p>
+    
+</button>    
