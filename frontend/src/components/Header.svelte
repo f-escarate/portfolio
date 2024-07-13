@@ -11,14 +11,13 @@
     }
 </script>
 
-<div class='md:h-[90vh] grid place-content-center lg:pr-[300px]'>
-    <div class='h-[90%] p-2 flex flex-nowrap'>
-        <div class='h-full m-4 p-2 flex flex-col'>
+    <div class='md:h-[90vh] max-w-[900px] mx-auto flex justify-between items-center'>
+        <div class='m-4 p-2 flex flex-col'>
             <h1 class='m-2 p-1 text-6xl'>Felipe Escárate F.</h1>
             <h2 class='m-2 p-1 text-lg color-slate-500'>Estudiante de 5to año de Ingeniería Civil en Computación</h2>
         </div>
 
-        <div class='h-full m-4 ml-8 p-2 flex flex-wrap flex-col'>
+        <div class='m-4 ml-8 p-2 flex flex-wrap flex-col'>
             <div class='bg-blue-500 rounded-full m-1 p-1 h-10 aspect-square'>
                 <a class='grid place-items-center h-full w-full'href="https://github.com/f-escarate" target="_blank" rel="noopener noreferrer">
                     <GithubSolid css_class='w-2/3 h-2/3 text-blue-100 transition duration-75 group-hover:text-gray-900' />
@@ -36,4 +35,3 @@
             </div>
         </div>
     </div>
-</div>
