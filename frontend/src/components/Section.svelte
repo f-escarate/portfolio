@@ -1,6 +1,7 @@
 <script>
     import data from '../data/data.json'
     import Description from './Description.svelte';
+    import SectionElement from './SectionElement.svelte';
     export var name = '';
     let elements = data[name].elements
 </script>
@@ -12,15 +13,6 @@
         <Description description={data[name].description} links={data[name].links}/>
     {/if}
     {#each elements as element}
-        <div class='my-4 p-6 rounded-sm bg-sky-200'> 
-            <h1 class='text-2xl font-bold'>{element.title}</h1>
-            <div class='my-4'>
-                <p class='text-xl whitespace-pre-wrap'>{element.description}</p>
-                {#if element.hasOwnProperty('url')}
-                    <a class='text-blue-500 underline' href={element.url} target="_blank" rel="noopener noreferrer">Más información</a>
-                {/if}
-            </div>
-            
-        </div>
+        <SectionElement element={element}/>
     {/each}
 </div>
