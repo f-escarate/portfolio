@@ -24,6 +24,20 @@ const config = {
           800: '#CC4522',
           900: '#A5371B'
         }
+      },
+      keyframes: {
+        'scale-down': {
+          from: { transform: 'translateY(-50%) scaleY(0%)', height: '0px' },
+          to: { transform: 'translateY(0%) scaleY(100%)', height: 'auto' },
+        },
+        'downscale-up': {
+          from: { transform: 'translateY(0%) scaleY(100%)', height: 'auto' },
+          to: { transform: 'translateY(-50%) scaleY(0%)', height: '0px' },
+        }
+      },
+      animation: {
+        'expand-down': '0.15s linear 0s 1 both scale-down',
+        'condense-up': '0.15s linear 0s 1 both downscale-up',
       }
     }
   }
