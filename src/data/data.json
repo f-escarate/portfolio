@@ -19,7 +19,7 @@
             {
                 "title": "Recomendador de plataformas CR2",
                 "description": "Proyecto realizado en el contexto del curso 'Proyecto de Software' de la Universidad de Chile. Permite buscar y filtrar plataformas del CR2 según ciertos metadatos meteorológicos, climatológicos, etc. Cuenta con un chatbot que recomienda plataformas según las necesidades del usuario. Está hecha en React, FastAPI y se usa Llama2 como modelo de lenguaje, el cual se puede utilizar gracias a langchain. Además se utilizó Docker para el desarrollo de la aplicación.",
-                "url": "https://www.cr2.cl/"
+                "url": "https://www.dataclima.cr2.cl/"
             }
         ]
     },
@@ -78,7 +78,7 @@
     },
     "contact": {
         "title": "Información personal",
-        "description":  ["Soy un estudiante de quinto año de Ingeniería Civil en Computación de la Universidad de Chile. Me gusta mucho programar, por eso he hecho cosas en distintos ámbitos.\n\n Por ejemplo para mi trabajo de título estoy trabajando en la implementación de un sistema de crowdsourcing para un museo virtual, es decir, que los usuarios puedan aportar contenido al museo mediante videos de los objetos. Esto involucra aspectos de frontend, backend, Machine Learning y Computación gráfica, ya que, es necesario un sitio web en el que los usuarios suban los videos para procesarlos Backend, de tal modo que se obtengan representaciones tridimensionales reconocibles por el motor gráfico. Todo este proceso estaría automatizado, y en un principio tengo pensado usar, ", " para obtener las representaciones tridimensionales.\n\n ‣ ",
+        "description":  ["Soy Ingeniero Civil en Computación de la Universidad de Chile y me gusta mucho programar, por eso he hecho cosas en distintos ámbitos.\n\n Por ejemplo para mi trabajo de título implementé de un sistema de crowdsourcing para un museo virtual, es decir, que los usuarios puedan aportar contenido al museo mediante videos de los objetos. Esto involucra aspectos de frontend, backend, Machine Learning y Computación gráfica, ya que, es necesario un sitio web en el que los usuarios suban los videos para procesarlos Backend, de tal modo que se obtengan representaciones tridimensionales reconocibles por el motor gráfico. Todo este proceso está automatizado se usa, ", " para obtener las representaciones tridimensionales.\n\n ‣ ",
          "\n\n ‣ Correo personal: felipeescaratefernandez@gmail.com\n\n ‣ Correo de la universidad: felipe.escarate@ug.uchile.cl\n\n ‣ Teléfono: +569 566 814 16"],
         "links": [
             {
