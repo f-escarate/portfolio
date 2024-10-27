@@ -13,9 +13,9 @@
 
 <div class='md:h-[90vh] max-w-[900px] m-auto flex justify-center items-center'>
     <div class='flex w-full justify-between items-stretch'>
-        <div class='m-4 p-2 flex flex-col justify-between min-h-full'>
-            <h1 class='text-7xl'>Felipe Escárate F.</h1>
-            <h2 class='text-2xl text-slate-800'>Estudiante de 5to año de Ingeniería Civil en Computación</h2>
+        <div class='m-4 p-2 flex flex-col justify-center gap-2 min-h-full'>
+            <h1 class='text-4xl md:text-5xl lg:text-6xl'>Felipe Escárate Fernández</h1>
+            <h2 class='text-2xl md:text-3xl lg:text-4xl text-slate-800'>Ingeniero Civil en Computación</h2>
         </div>
 
         <div class='m-2 p-1 flex flex-wrap flex-col h-max'>
@@ -25,7 +25,7 @@
                 </a>
             </div>
             <div class='bg-blue-500 hover:bg-cyan-400 rounded-full m-1 p-1 h-10 aspect-square'>
-                <a class='grid place-items-center h-full w-full'href="https://www.linkedin.com/in/felipe-esc%C3%A1rate-793380152/" target="_blank" rel="noopener noreferrer">
+                <a class='grid place-items-center h-full w-full' href="https://www.linkedin.com/in/f-escarate/" target="_blank" rel="noopener noreferrer">
                     <LinkedinSolid css_class='w-2/3 h-2/3 text-blue-100 transition duration-75 group-hover:text-gray-900' />
                 </a>
             </div>

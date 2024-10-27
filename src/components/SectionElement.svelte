@@ -10,8 +10,8 @@
 </script>
 
 <div class='my-4 rounded-sm bg-sky-200'> 
-    <button class="p-6 flex justify-between w-full items-center h-full hover:bg-cyan-200" on:click={()=>{expanded = !expanded;}}>
-        <h1 class='text-3xl font-bold text-left'>{element.title}</h1>
+    <button class="px-6 py-3 md:py-4 lg:py-6 flex justify-between w-full items-center h-full hover:bg-cyan-200" on:click={()=>{expanded = !expanded;}}>
+        <h1 class='text-xl md:text-2xl lg:text-3xl font-bold text-left'>{element.title}</h1>
         <div class='h-full max-w-[40px] w-full'>
             {#if expanded}
                 <Condense css_class='h-full w-full' />
