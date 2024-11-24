@@ -27,17 +27,17 @@ const config = {
       },
       keyframes: {
         'scale-down': {
-          from: { transform: 'translateY(-50%) scaleY(0%)', height: '0px' },
-          to: { transform: 'translateY(0%) scaleY(100%)', height: 'auto' },
+          from: { transform: 'translateY(-50%) scaleY(0%)', maxHeight: '0px' },
+          to: { transform: 'translateY(0%) scaleY(100%)', maxHeight: '9999999px' },
         },
         'downscale-up': {
-          from: { transform: 'translateY(0%) scaleY(100%)', height: 'auto' },
-          to: { transform: 'translateY(-50%) scaleY(0%)', height: '0px' },
+          from: { transform: 'translateY(0%) scaleY(100%)', maxHeight: '9999999px' },
+          to: { transform: 'translateY(-50%) scaleY(0%)', maxHeight: '0px' },
         }
       },
       animation: {
-        'expand-down': '0.15s linear 0s 1 both scale-down',
-        'condense-up': '0.15s linear 0s 1 both downscale-up',
+        'expand-down': '0.1s linear 0s 1 both scale-down',
+        'condense-up': '0.1s linear 0s 1 both downscale-up',
       }
     }
   }
