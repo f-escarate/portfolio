@@ -7,3 +7,20 @@
 :root {
 	font-family: 'Roboto Condensed';	
 }
+
+h1 {
+	font-size: 24px;
+	font-weight: 700;
+}
+
+@media screen(md) {
+	h1 {
+		font-size: 48px;
+	}
+}
+
+@media screen(lg) {
+	h1 {
+		font-size: 52px;
+	}
+}
