@@ -1,10 +1,6 @@
 {
-    "home": {
-        "title": "Inicio",
-        "url": "/",
-        "description": "En esta página iré poniendo las cosas que he hecho. Por ahora está en desarrollo..."
-    },
     "webdev": {
+        "type": "GroupsSection",
         "title": "Desarrollo web",
         "elements" : [
             {
@@ -24,6 +20,7 @@
         ]
     },
     "games": {
+        "type": "GroupsSection",
         "title": "Videojuegos",
         "elements" : [
             {
@@ -44,12 +41,13 @@
         ]
     },
     "ML": {
+        "type": "GroupsSection",
         "title": "Machine Learning",
         "elements" : [
             {
                 "title": "Análisis de pobreza en Chile a partir de encuestas CASEN",
                 "description": "Para el curso de 'Minería de Datos' realizamos un análisis de los datos de las encuestas CASEN, usando distintos algoritmos de clasificación (ej: KNN, Naive Bayes, Random Forest, etc) y de clustering (ej: DBScan, Kmeans). Se utilizó Python y las librerías scikit-learn, pandas, numpy, matplotlib y seaborn. Se puede encontrar tanto los reportes de las 3 iteraciones como el código, en el siguiente enlace.",
-                "url": "http://f-escarate.tech/mineria"
+                "url": "https://f-escarate.cl/AnalisisCasen.html"
             },
             {
                 "title": "Competencias Procesamiento del Lenguaje Natural",
@@ -57,11 +55,12 @@
             },
             {
                 "title": "Gaussian Splatting",
-                "description": "Para mi trabajo de título, se está trabajando en la obtención de representaciones de objetos reales mediante Gaussian Splatting, de modo que se puedan importar en un museo virtual hecho en Unity."
+                "description": "Para mi trabajo de título, trabajé en un algorítmo que permite obtener representaciones 3D (digitales) de objetos reales. Para esto usé Gaussian Splatting, de modo que se puedan importar en un museo virtual hecho en Unity."
             }
         ]
     },
     "IoT": {
+        "type": "GroupsSection",
         "title": "Internet of Things",
         "elements" : [
             {
@@ -77,17 +76,22 @@
         ]
     },
     "contact": {
+        "type": "DescriptionSection",
         "title": "Información personal",
-        "description":  ["Soy Ingeniero Civil en Computación de la Universidad de Chile y me gusta mucho programar, por eso he hecho cosas en distintos ámbitos.\n\n Por ejemplo para mi trabajo de título implementé de un sistema de crowdsourcing para un museo virtual, es decir, que los usuarios puedan aportar contenido al museo mediante videos de los objetos. Esto involucra aspectos de frontend, backend, Machine Learning y Computación gráfica, ya que, es necesario un sitio web en el que los usuarios suban los videos para procesarlos Backend, de tal modo que se obtengan representaciones tridimensionales reconocibles por el motor gráfico. Todo este proceso está automatizado se usa, ", " para obtener las representaciones tridimensionales.\n\n ‣ ",
-         "\n\n ‣ Correo personal: felipeescaratefernandez@gmail.com\n\n ‣ Correo de la universidad: felipe.escarate@ug.uchile.cl\n\n ‣ Teléfono: +569 566 814 16"],
-        "links": [
+        "description":  ["Soy Ingeniero Civil en Computación de la Universidad de Chile y me gusta mucho programar, por eso he hecho cosas en distintos ámbitos.\n\nPor ejemplo para mi trabajo de título implementé de un sistema de crowdsourcing para un museo virtual, es decir, que los usuarios puedan aportar contenido al museo mediante videos de los objetos. Esto involucra aspectos de frontend, backend, Machine Learning y Computación gráfica, ya que, es necesario un sitio web en el que los usuarios suban los videos para procesarlos Backend, de tal modo que se obtengan representaciones tridimensionales reconocibles por el motor gráfico. Todo este proceso está automatizado se usa, ", " para obtener las representaciones tridimensionales.\n\n", ""],
+        "components": [
             {
+                "type": "link",
                 "name": "Gaussian Splatting",
                 "url": "https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/"
             },
             {
-                "name": "Curriculum Vitae",
-                "url": "https://drive.google.com/file/d/1Py1w4S5opI8NvNzqg-vrKgXUaK58_ws-/view?usp=sharing"
+                "type": "list",
+                "title": "Contacto",
+                "elements": [
+                    {"title":  "Correo personal:", "text": "felipeescaratefernandez@gmail.com"},
+                    {"title":  "Correo secundario:", "text": "felipe.escarate@ug.uchile.cl"}
+                ]
             }
         ],
         "elements": []
