@@ -1,7 +1,7 @@
 <script>
     import data from '../data/data.json'
     import Description from './Description/Description.svelte';
-    import SectionElement from './SectionElement.svelte';
+    import SectionElement from './SectionItem.svelte';
     export var name = '';
     let elements = data[name].elements
 </script>

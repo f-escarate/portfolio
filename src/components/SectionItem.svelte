@@ -1,6 +1,8 @@
 <script>
     import Expand from '../lib/icons/Expand.svelte';
     import Condense from '../lib/icons/Condense.svelte';
+    import NormalItem from './Items/NormalItem.svelte';
+    import MultimediaItem from './Items/MultimediaItem.svelte';
 
     export let element = {title: '', description: '', url: ''};
     let expanded = false;
@@ -22,11 +24,11 @@
         </div>
     </button>
     <div class={getClass(expanded)}>
-        <div class="py-6 mb-2">
-            <p class='text-xl whitespace-pre-wrap'>{element.description}</p>
-            {#if element.hasOwnProperty('url')}
-                <a class='text-light underline' href={element.url} target="_blank" rel="noopener noreferrer">Más información</a>
-            {/if}
-        </div>
+        {#if !element.hasOwnProperty('mediaType')}
+            <NormalItem element={element} />
+        {:else}
+            <MultimediaItem data={element} />
+        {/if}
+        
     </div>
 </div>
