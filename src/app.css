@@ -49,6 +49,27 @@ button.hoverable:hover {
 	}
 }
 
+.section-item-content {
+	background-color: var(--secondary);
+	color: white;
+	box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+	border-radius: 0 0 5px 5px;
+	padding: 0 24px;
+	overflow: hidden;
+	height: fit-content;
+}
+
+.href-text {
+	color: var(--href);
+	text-decoration: underline;
+	font-weight: 500;
+	font-style: italic;
+}
+
+.section-item-content .href-text {
+	color: white;
+}
+
 @media screen(md) {
 	h1 {
 		font-size: 48px;

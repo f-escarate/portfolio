@@ -7,7 +7,7 @@
     export let element = {title: '', description: '', url: ''};
     let expanded = false;
     const getClass = (expanded) => {
-        return 'bg-secondary text-white shadow-md rounded-b-[5px] px-6 overflow-hidden h-fit ' + (expanded? 'animate-expand-down': 'animate-condense-up');
+        return 'section-item-content ' + (expanded? 'animate-expand-down': 'animate-condense-up');
     }
 </script>
 
