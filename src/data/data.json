@@ -1,21 +1,43 @@
 {
-    "webdev": {
+    "projects": {
         "type": "GroupsSection",
-        "title": "Desarrollo web",
+        "title": "Proyectos",
         "elements" : [
             {
-                "title": "Aplicaciones con Django",
-                "description": "Se ha trabajado tanto a nivel de frontend como backend, esto para los cursos 'Ingeniería de Software' y 'Taller Avanzado de Desarrollo Agil y Lean'."
+                "title": "Mecanismo de crowdsourcing automatizado para museo virtual",
+                "mediaType": "image",
+                "src": "https://saduewa.dcc.uchile.cl/crowdsourcing/gifs/videoForMeshing.gif",
+                "alt": "crowdsourcing",
+                "descriptionData": {
+                    "description": ["Para mi trabajo de título, diseñé e implementé un sistema de crowdsourcing para museos virtuales. Consiste en un sitio web donde los usuarios pueden subir videos e información sobre las obras a exhibir, lo que permite la generación automática de un modelo 3D del objeto, el cual se añade (junto con su información) al museo virtual. Este proyecto involucra aspectos de frontend, backend, Machine Learning y Computación gráfica, ya que, es necesario un sitio web en el que los usuarios suban los videos para procesarlos Backend, de tal modo que se obtengan representaciones tridimensionales reconocibles por el motor gráfico. Todo este proceso está automatizado se usa, ", " para obtener las representaciones tridimensionales.\n\n"],
+                    "components": [
+                        {
+                            "type": "link",
+                            "name": "Gaussian Splatting",
+                            "url": "https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/"
+                        }
+                    ]
+                }
             },
             {
-                "title": "Aplicación para la despensa",
-                "description": "Aplicación hecha para dispositivos Android. Permite llevar un control de los productos que hay en la despensa. Está hecha con React Native, Golang y MongoDB.",
-                "url": "https://github.com/f-escarate/InventoryApp"
+                "title": "Comunicación inalámbrica entre Raspberry Pi y esp32",
+                "description": "Se manejó la transferencia de paquetes entre una Raspberry Pi y una esp32 mediante distintos protocolos de comunicación. Se pueden enviar paquetes por Wi-Fi usando sockets TCP/UDP, y por BLE usando el protocolo GATT. Esto fue hecho usando Python por el lado de la Raspberry y C++ por el lado de la esp32 (con ESP-IDF). Cabe destacar que se creó una interfaz gráfica (con PyQt) para poder cambiar los protocolos de comunicación y visualizar los resultados.",
+                "url": "https://github.com/f-escarate/IoT"
+            },
+            {
+                "title": "Visualizador de datos de sensores Bosch",
+                "description": "Se creó una interfaz gráfica (con PyQt) para poder visualizar datos obtenidos por sensores, y editar sus configuraciones. Esto era posible conectando la esp32 por USB a un computador para que se comunicaran a través de UART. Los sensores utilizados fueron el BME688 (sensor de calidad del aire) y el BMI270 (IMU). Se usó el framework ESP-IDF y comunicación I2C.",
+                "url": "https://github.com/f-escarate/EmbebidosYSensores"
             },
             {
                 "title": "Recomendador de plataformas CR2",
                 "description": "Proyecto realizado en el contexto del curso 'Proyecto de Software' de la Universidad de Chile. Permite buscar y filtrar plataformas del CR2 según ciertos metadatos meteorológicos, climatológicos, etc. Cuenta con un chatbot que recomienda plataformas según las necesidades del usuario. Está hecha en React, FastAPI y se usa Llama2 como modelo de lenguaje, el cual se puede utilizar gracias a langchain. Además se utilizó Docker para el desarrollo de la aplicación.",
-                "url": "https://www.dataclima.cr2.cl/"
+                "url": "https://dataclima.cr2.cl/"
+            },
+            {
+                "title": "Aplicación de inventario",
+                "description": "Aplicación hecha para dispositivos Android. Permite llevar un control de los productos que hay en la despensa. Está hecha con React Native, Golang y MongoDB.",
+                "url": "https://github.com/f-escarate/InventoryApp"
             }
         ]
     },
@@ -52,51 +74,7 @@
             {
                 "title": "Competencias Procesamiento del Lenguaje Natural",
                 "description": "En el contexto del curso de 'Procesamiento del Lenguaje Natural' se realizaron dos competencias, la primera se trataba sobre clasificar un tweets chilenos según 3 categorías: discurso de odio, incivilidad o normal. Si bien probamos distintos modelos (BERT, LSTM, GRU, etc), lo que nos dio mejores resultados fue utilizar un stacking de los modelos más simples que probamos, i.e: Naive Bayes, SVM, MLP, ExtraTrees, CatBoost y LightGBM..\n\n La segunda competencia consistió en una tarea tipo NER (Name Entity Recognition) usando un corpus de listas de espera, las cuales tenían las entidades [Disease, Body_Part, Medication, Procedures y Family_Member]. Se usararon GRU, LSTM y distintas versiones de BERT, sin embargo todas entregaban resultados similares. También se probó usando capas de embeddings en español, pero esto no mejoró mucho los resultados."
-            },
-            {
-                "title": "Gaussian Splatting",
-                "description": "Para mi trabajo de título, trabajé en un algorítmo que permite obtener representaciones 3D (digitales) de objetos reales. Para esto usé Gaussian Splatting, de modo que se puedan importar en un museo virtual hecho en Unity."
             }
         ]
-    },
-    "IoT": {
-        "type": "GroupsSection",
-        "title": "Internet of Things",
-        "elements" : [
-            {
-                "title": "Comunicación inalámbrica entre Raspberry Pi y esp32",
-                "description": "Se manejó la transferencia de paquetes entre una Raspberry Pi y una esp32 mediante distintos protocolos de comunicación. Se pueden enviar paquetes por Wi-Fi usando sockets TCP/UDP, y por BLE usando el protocolo GATT. Esto fue hecho usando Python por el lado de la Raspberry y C++ por el lado de la esp32 (con ESP-IDF). Cabe destacar que se creó una interfaz gráfica (con PyQt) para poder cambiar los protocolos de comunicación y visualizar los resultados.",
-                "url": "https://github.com/f-escarate/IoT"
-            },
-            {
-                "title": "Uso de sensores Bosch",
-                "description": "Se programó la obtención de datos de los sensores BME688 (sensor de calidad del aire) y BMI270 (IMU) usando una esp32. Se usó el framework ESP-IDF y comunicación I2C. También se creó interfaz gráfica (con PyQt) para poder visualizar los datos obtenidos y editar la configuración de los sensores. Esto era posible conectando la esp32 por USB a un computador para que se comunicaran a través de UART.",
-                "url": "https://github.com/f-escarate/EmbebidosYSensores"
-            }
-        ]
-    },
-    "contact": {
-        "type": "DescriptionSection",
-        "title": "Información personal",
-        "description":  ["Soy Ingeniero Civil en Computación de la Universidad de Chile y me gusta mucho programar, por eso he hecho cosas en distintos ámbitos.\n\nPor ejemplo para mi trabajo de título implementé de un sistema de crowdsourcing para un museo virtual, es decir, que los usuarios puedan aportar contenido al museo mediante videos de los objetos. Esto involucra aspectos de frontend, backend, Machine Learning y Computación gráfica, ya que, es necesario un sitio web en el que los usuarios suban los videos para procesarlos Backend, de tal modo que se obtengan representaciones tridimensionales reconocibles por el motor gráfico. Todo este proceso está automatizado se usa, ", " para obtener las representaciones tridimensionales.\n\n", ""],
-        "components": [
-            {
-                "type": "link",
-                "name": "Gaussian Splatting",
-                "url": "https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/"
-            },
-            {
-                "type": "list",
-                "title": "Contacto",
-                "elements": [
-                    {"title":  "Correo personal:", "text": "felipeescaratefernandez@gmail.com"},
-                    {"title":  "Correo secundario:", "text": "felipe.escarate@ug.uchile.cl"}
-                ]
-            }
-        ],
-        "elements": []
     }
-
-        
-    
 }
