@@ -1,6 +1,7 @@
 <script>
     import Link from "./Link.svelte";
     import List from "./List.svelte";
+    import TooltipText from "./TooltipText.svelte";
     
     export let data;
     const { description, components } = data;
@@ -14,6 +15,8 @@
             <Link link={components[i]}/>
         {:else if components[i].type === 'list'}
             <List list={components[i]}/>
+        {:else if components[i].type === 'tooltip'}
+            <TooltipText tooltip={components[i]}/>
         {/if}{sentence}
     {/each}
 </div>
