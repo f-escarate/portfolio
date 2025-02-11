@@ -1,4 +1,5 @@
 <script>
+    import Description from "../Description/Description.svelte";
     export let data;
     export let reverse = false;
     let direction = reverse? 'flex-row-reverse':'flex-row';
@@ -8,9 +9,7 @@
     {#if mediaType === 'image'}
         <img src={data.src} alt={data.alt} class='md:w-1/2'/>
     {/if}
-    <div>
-        <p class="whitespace-break-spaces my-2 text-xl text-left">
-            {data.description}
-        </p>
+    <div class="md:w-1/2">
+        <Description data={data.descriptionData} />
     </div>
 </div>
