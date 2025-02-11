@@ -3,10 +3,14 @@
     export let elements;
   </script>
   
-  <Timeline>
+  <Timeline class="border-s-[4px] border-secondary">
     {#each elements as element}
-        <TimelineItem title={element.title} date={element.date}>
-            <p class="text-base font-normal text-gray-500 dark:text-gray-400">{element.description}</p>
+        <TimelineItem title={element.title} date={element.date} 
+          classDiv="bg-primary w-4 h-4 -start-2.5" 
+          classTime="text-primary italic text-lg"
+          classH3="text-3xl font-bold text-dark"
+          >
+            <p class="text-xl font-normal text-dark">{element.description}</p>
         </TimelineItem>
     {/each}
   </Timeline>
