@@ -1,0 +1,88 @@
+{
+    "type": "TimelineSection",
+    "title": "Experiencia",
+    "elements": [
+        {
+            "title": "Proyecto de Software",
+            "subtitle": "Desarrollador Fullstack",
+            "date": "Agosto 2023 - Diciembre 2023",
+            "descriptionData": {
+                "description": ["En el curso de Proyecto de Software de la Universidad de Chile, trabajé en un proyecto que consistía en un ", " que permite buscar y filtrarlas según ciertos metadatos meteorológicos, climatológicos, etc. Cuenta con un ", " que recomienda plataformas según las necesidades del usuario."],
+                "components": [
+                    {
+                        "type": "link",
+                        "name": "recomendador de plataformas para el CR2",
+                        "url": "https://dataclima.cr2.cl/"
+                    },
+                    {
+                        "type": "tooltip",
+                        "name": "chatbot",
+                        "description": "Fue implementado con Llama 2, un LLM que pudimos 'envolver' gracias a una biblioteca de Python llamada langchain."
+                    }
+                ]
+            },
+            "technologies": [
+                {
+                    "name": "React",
+                    "icon": "react.png",
+                    "url": "https://reactjs.org/"
+                },
+                {
+                    "name": "FastAPI",
+                    "icon": "fastapi.png",
+                    "url": "https://fastapi.tiangolo.com/"
+                },
+                {
+                    "name": "Langchain",
+                    "icon": "langchain.png",
+                    "url": "https://python.langchain.com/docs/introduction/"
+                },
+                {
+                    "name": "Tailwind CSS",
+                    "icon": "tailwind.png",
+                    "url": "https://tailwindcss.com/"
+                },
+                {
+                    "name": "Material UI",
+                    "icon": "mui.png",
+                    "url": "https://mui.com/"
+                },
+                {
+                    "name": "PostgreSQL",
+                    "icon": "postgres.png",
+                    "url": "https://www.postgresql.org/"
+                },
+                {
+                    "name": "Docker",
+                    "icon": "docker.png",
+                    "url": "https://www.docker.com/"
+                }
+            ]
+        },
+        {
+            "title": "Práctica Profesional I",
+            "subtitle": "Desarrollador de Videojuegos",
+            "date": "Enero 2022 - Febrero 2022",
+            "descriptionData": {
+                "description": ["En mi primera práctica profesional trabajé en AOne Games, donde me dediqué al port del juego Omen of Sorrow para Nintendo Switch. Principalmente me dedique a optimizar el juego los casos en que la consola no podía rendir como lo esperado. Se utilizó Unreal Engine 4 (y por ende C++)."]
+            },
+            "technologies": [
+                {
+                    "name": "Unreal Engine 4",
+                    "icon": "unreal-engine.png",
+                    "url": "https://www.unrealengine.com/"
+                },
+                {
+                    "name": "C++",
+                    "icon": "c++.png",
+                    "url": "https://www.cplusplus.com/"
+                },
+                {
+                    "name": "Perforce HelixCore",
+                    "icon": "perforce.png",
+                    "url": "https://www.perforce.com/products/helix-core"
+                }
+            ]
+        }
+    ]
+}
