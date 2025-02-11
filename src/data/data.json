@@ -1,4 +1,16 @@
 {
+    "experience": {
+        "type": "TimelineSection",
+        "title": "Experiencia",
+        "elements": [
+            {
+                "title": "Práctica Profesional I",
+                "subtitle": "Desarrollador de Videojuegos",
+                "date": "Enero 2021 - Marzo 2021",
+                "description": "En mi primera práctica profesional trabajé en AOne Games, donde me dediqué al port del juego Omen of Sorrow para Nintendo Switch. Principalmente me dedique a optimizar el juego los casos en que la consola no podía rendir como lo esperado. Se utilizó Unreal Engine 4 (y por ende C++)."
+            }
+        ]
+    },
     "projects": {
         "type": "GroupsSection",
         "title": "Proyectos",

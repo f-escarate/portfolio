@@ -2,6 +2,7 @@
     import data from '../data/data.json'
     import Description from './Description/Description.svelte';
     import SectionElement from './SectionItem.svelte';
+    import Timeline from './Timeline/Timeline.svelte';
     export var name = '';
     let elements = data[name].elements
 </script>
@@ -15,5 +16,7 @@
         {#each elements as element}
             <SectionElement element={element}/>
         {/each}
+    {:else if data[name].type === 'TimelineSection'}
+        <Timeline elements={data[name].elements}/>
     {/if}
 </div>
