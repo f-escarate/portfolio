@@ -1,6 +1,7 @@
 <script>
     import { Timeline, TimelineItem } from 'flowbite-svelte';
     import Description from '../Description/Description.svelte';
+    import Technologies from '../Technologies/Technologies.svelte';
     export let elements;
   </script>
   
@@ -12,6 +13,9 @@
           classH3="text-3xl font-bold text-dark"
           >
           <Description data={element.descriptionData}/>
+          {#if element.technologies}
+            <Technologies technologies={element.technologies} />
+          {/if}
         </TimelineItem>
     {/each}
   </Timeline>

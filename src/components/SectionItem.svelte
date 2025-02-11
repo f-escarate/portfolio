@@ -3,6 +3,7 @@
     import Condense from '../lib/icons/Condense.svelte';
     import NormalItem from './Items/NormalItem.svelte';
     import MultimediaItem from './Items/MultimediaItem.svelte';
+    import Technologies from './Technologies/Technologies.svelte';
 
     export let element = {title: '', description: '', url: ''};
     let expanded = false;
@@ -29,6 +30,8 @@
         {:else}
             <MultimediaItem data={element} />
         {/if}
-        
+        {#if element.technologies}
+            <Technologies technologies={element.technologies} />
+        {/if}
     </div>
 </div>
