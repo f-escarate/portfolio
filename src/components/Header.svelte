@@ -12,7 +12,7 @@
             <h1 class='text-4xl md:text-5xl lg:text-6xl'>Felipe Escárate Fernández</h1>
             <h2 class='text-2xl md:text-3xl lg:text-4xl'>Ingeniero Civil en Computación</h2>
             <p class="text-xl text-dark">
-                Soy Ingeniero Civil en Computación de la Universidad de Chile. Me gusta mucho programar, y por eso he hecho desarrollado proyectos en distintos ámbitos.
+                Me gusta mucho programar, y por eso he desarrollado proyectos en distintos ámbitos (Desarrollo Fullstack, IoT, Machine Learning y Computación Gráfica).
             </p>
         </div>
 
