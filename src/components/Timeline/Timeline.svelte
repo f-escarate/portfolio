@@ -1,5 +1,6 @@
 <script>
     import { Timeline, TimelineItem } from 'flowbite-svelte';
+    import Description from '../Description/Description.svelte';
     export let elements;
   </script>
   
@@ -10,7 +11,7 @@
           classTime="text-primary italic text-lg"
           classH3="text-3xl font-bold text-dark"
           >
-            <p class="text-xl font-normal text-dark">{element.description}</p>
+          <Description data={element.descriptionData}/>
         </TimelineItem>
     {/each}
   </Timeline>
