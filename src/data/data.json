@@ -20,26 +20,107 @@
                 },
                 "technologies": [
                     {
+                        "name": "Svelte",
+                        "icon": "svelte.png",
+                        "url": "https://svelte.dev/"
+                    },
+                    {
                         "name": "FastAPI",
                         "icon": "fastapi.png",
                         "url": "https://fastapi.tiangolo.com/"
+                    },
+                    {
+                        "name": "SQLite",
+                        "icon": "sqlite.svg",
+                        "url": "https://www.sqlite.org/index.html"
+                    },
+                    {
+                        "name": "Bash",
+                        "icon": "bash.png",
+                        "url": "https://www.gnu.org/software/bash/"
+                    },
+                    {
+                        "name": "Unity",
+                        "icon": "unity.png",
+                        "url": "https://unity.com/"
                     }
                 ]
             },
             {
                 "title": "Comunicación inalámbrica entre Raspberry Pi y esp32",
                 "description": "Se manejó la transferencia de paquetes entre una Raspberry Pi y una esp32 mediante distintos protocolos de comunicación. Se pueden enviar paquetes por Wi-Fi usando sockets TCP/UDP, y por BLE usando el protocolo GATT. Esto fue hecho usando Python por el lado de la Raspberry y C++ por el lado de la esp32 (con ESP-IDF). Cabe destacar que se creó una interfaz gráfica (con PyQt) para poder cambiar los protocolos de comunicación y visualizar los resultados.",
-                "url": "https://github.com/f-escarate/IoT"
+                "url": "https://github.com/f-escarate/IoT",
+                "technologies": [
+                    {
+                        "name": "Python",
+                        "icon": "python.webp",
+                        "url": "https://www.python.org/"
+                    },
+                    {
+                        "name": "C++",
+                        "icon": "c++.png",
+                        "url": "https://isocpp.org/"
+                    },
+                    {
+                        "name": "PyQt",
+                        "icon": "pyqt.png",
+                        "url": "https://riverbankcomputing.com/software/pyqt/intro"
+                    },
+                    {
+                        "name": "ESP-IDF",
+                        "icon": "espressif.png",
+                        "url": "https://docs.espressif.com/projects/esp-idf/en/latest/esp32/"
+                    }
+                ]
             },
             {
                 "title": "Visualizador de datos de sensores Bosch",
                 "description": "Se creó una interfaz gráfica (con PyQt) para poder visualizar datos obtenidos por sensores, y editar sus configuraciones. Esto era posible conectando la esp32 por USB a un computador para que se comunicaran a través de UART. Los sensores utilizados fueron el BME688 (sensor de calidad del aire) y el BMI270 (IMU). Se usó el framework ESP-IDF y comunicación I2C.",
-                "url": "https://github.com/f-escarate/EmbebidosYSensores"
+                "url": "https://github.com/f-escarate/EmbebidosYSensores",
+                "technologies": [
+                    {
+                        "name": "C++",
+                        "icon": "c++.png",
+                        "url": "https://isocpp.org/"
+                    },
+                    {
+                        "name": "PyQt",
+                        "icon": "pyqt.png",
+                        "url": "https://riverbankcomputing.com/software/pyqt/intro"
+                    },
+                    {
+                        "name": "ESP-IDF",
+                        "icon": "espressif.png",
+                        "url": "https://docs.espressif.com/projects/esp-idf/en/latest/esp32/"
+                    }
+                ]
             },
             {
                 "title": "Aplicación de inventario",
                 "description": "Aplicación hecha para dispositivos Android. Permite llevar un control de los productos que hay en la despensa. Está hecha con React Native, Golang y MongoDB.",
-                "url": "https://github.com/f-escarate/InventoryApp"
+                "url": "https://github.com/f-escarate/InventoryApp",
+                "technologies": [
+                    {
+                        "name": "React Native",
+                        "icon": "react.png",
+                        "url": "https://reactnative.dev/"
+                    },
+                    {
+                        "name": "Expo",
+                        "icon": "expo.png",
+                        "url": "https://expo.dev/"
+                    },
+                    {
+                        "name": "Golang",
+                        "icon": "golang.png",
+                        "url": "https://golang.org/"
+                    },
+                    {
+                        "name": "MongoDB",
+                        "icon": "mongodb.png",
+                        "url": "https://www.mongodb.com/"
+                    }
+                ]
             }
         ]
     },
@@ -50,17 +131,26 @@
             {
                 "title": "Froggy Against the World",
                 "description": "Juego de ritmo para dispositivos móviles (hecho en Godot 3).",
-                "url": "https://bluemili.itch.io/froggy-against-the-world"
+                "url": "https://bluemili.itch.io/froggy-against-the-world",
+                "technologies": [
+                    {
+                        "name": "Godot",
+                        "icon": "godot.png",
+                        "url": "https://godotengine.org/"
+                    }
+                ]
             },
             {
                 "title": "Chaotic Ocean",
                 "description": "Juego multijugador de 2 a 4 jugadores (hecho en Godot 4).",
-                "url": "https://bluemili.itch.io/chaotic-ocean"
-            },
-            {
-                "title": "AOne Games (primera práctica profesional)",
-                "description": "En mi primera práctica trabajé en el port del juego Omen of Sorrow para Nintendo Switch. Principalmente me dedique a optimizar el juego los casos en que la consola no podía rendir como lo esperado. Se utilizó Unreal Engine 4 (y por ende C++).",
-                "url": "https://www.aonegames.com/"
+                "url": "https://bluemili.itch.io/chaotic-ocean",
+                "technologies": [
+                    {
+                        "name": "Godot",
+                        "icon": "godot.png",
+                        "url": "https://godotengine.org/"
+                    }
+                ]
             }
         ]
     },
