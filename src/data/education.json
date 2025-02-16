@@ -1,0 +1,21 @@
+{
+    "type": "TimelineSection",
+    "title": "Educación",
+    "elements": [
+        {
+            "title": "Universidad de Chile",
+            "subtitle": "",
+            "date": "Marzo 2019 - Octubre 2024",
+            "descriptionData": {
+                "description": ["Ingeniería Civil en Computación ", "."],
+                "components": [
+                    {
+                        "type": "link",
+                        "name": "Ver Certificado",
+                        "url": "https://drive.google.com/file/d/1jipxKsK0JQ556v0KCp1_VCvvVRmSQTQW/view"
+                    }
+                ]
+            }
+        }
+    ]
+}
