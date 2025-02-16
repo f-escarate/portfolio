@@ -3,6 +3,145 @@
     "title": "Experiencia",
     "elements": [
         {
+            "title": "Encodelyt",
+            "subtitle": "Ingeniero de Software",
+            "date": "Abril 2024 - Enero 2025",
+            "descriptionData": {
+                "description": ["Trabajé en el desarrollo de plataformas web ", ", diseñando los modelos de datos y programando tanto el ", " como el ", ". Además, continué el desarrollo de ciertas funcionalidades del robot promotor ", ", que había comenzado a desarrollar en mi segunda práctica profesional."],
+                "components": [
+                    {
+                        "type": "tooltip",
+                        "name": "alojadas en AWS",
+                        "description": "Amplify para el frontend, Elastic Beanstalk para el Backend, y Cognito para la gestión de usuarios."
+                    },
+                    {
+                        "type": "tooltip",
+                        "name": "frontend",
+                        "description": "Desarrollado con React y Tailwind CSS."
+                    },
+                    {
+                        "type": "tooltip",
+                        "name": "backend",
+                        "description": "Desarrollado con FastAPI y PostgreSQL."
+                    },
+                    {
+                        "type": "link",
+                        "name": "Alicia",
+                        "url": "https://www.encodelyt.com/alicia/"
+                    }
+                ]
+            },
+            "technologies": [
+                {
+                    "name": "React",
+                    "icon": "react.png",
+                    "url": "https://reactjs.org/"
+                },
+                {
+                    "name": "FastAPI",
+                    "icon": "fastapi.png",
+                    "url": "https://fastapi.tiangolo.com/"
+                },
+                {
+                    "name": "Tailwind CSS",
+                    "icon": "tailwind.png",
+                    "url": "https://tailwindcss.com/"
+                },
+                {
+                    "name": "PostgreSQL",
+                    "icon": "postgres.png",
+                    "url": "https://www.postgresql.org/"
+                },
+                {
+                    "name": "Docker",
+                    "icon": "docker.png",
+                    "url": "https://www.docker.com/"
+                },
+                {
+                    "name": "AWS",
+                    "icon": "aws.webp",
+                    "url": "https://aws.amazon.com/"
+                },
+                {
+                    "name": "Python",
+                    "icon": "python.webp",
+                    "url": "https://www.python.org/"
+                },
+                {
+                    "name": "Bash",
+                    "icon": "bash.png",
+                    "url": "https://www.gnu.org/software/bash/"
+                }
+            ]
+        },
+        {
+            "title": "Encodelyt",
+            "subtitle": "Práctica Profesional II",
+            "date": "Enero 2024 - Marzo 2024",
+            "descriptionData": {
+                "description": ["Al comienzo de la práctica, trabajé en el diseño de un ", ". Luego, en el diseño y desarrollo del software de un robot promotor llamado ", ", el cual atrae clientes para que compren un determinado producto, además de captar datos útiles para la empresa. Se destacan las funcionalidades de reconocimiento facial (CNN) y asistencia por voz (LLM). También se trabajó con ", "."],
+                "components": [
+                    {
+                        "type": "tooltip",
+                        "name": "modelo de forecasting",
+                        "description": "De predicción de demanda eléctrica a nivel horario, considerando variables medioambientales y otras características"
+                    },
+                    {
+                        "type": "link",
+                        "name": "Alicia",
+                        "url": "https://www.encodelyt.com/alicia/"
+                    },
+                    {
+                        "type": "tooltip",
+                        "name": "servicios de AWS",
+                        "description": "AWS IoT, S3, y AWS Rekognition."
+                    }
+                ]
+            },
+            "technologies": [
+                {
+                    "name": "Python",
+                    "icon": "python.webp",
+                    "url": "https://www.python.org/"
+                },
+                {
+                    "name": "AWS",
+                    "icon": "aws.webp",
+                    "url": "https://aws.amazon.com/"
+                },
+                {
+                    "name": "scikit-learn",
+                    "icon": "scikit-learn.png",
+                    "url": "https://scikit-learn.org/stable/"
+                },
+                {
+                    "name": "PyTorch",
+                    "icon": "pytorch.png",
+                    "url": "https://pytorch.org/"
+                },
+                {
+                    "name": "Pandas",
+                    "icon": "pandas.svg",
+                    "url": "https://pandas.pydata.org/"
+                },
+                {
+                    "name": "Matplotlib",
+                    "icon": "matplotlib.png",
+                    "url": "https://matplotlib.org/"
+                },
+                {
+                    "name": "CatBoost (y otros Gradient Boosting Trees)",
+                    "icon": "catboost.png",
+                    "url": "https://catboost.ai/"
+                },
+                {
+                    "name": "Bash",
+                    "icon": "bash.png",
+                    "url": "https://www.gnu.org/software/bash/"
+                }
+            ]
+        },
+        {
             "title": "Proyecto de Software",
             "subtitle": "Desarrollador Fullstack",
             "date": "Agosto 2023 - Diciembre 2023",
@@ -43,11 +182,6 @@
                     "url": "https://tailwindcss.com/"
                 },
                 {
-                    "name": "Material UI",
-                    "icon": "mui.png",
-                    "url": "https://mui.com/"
-                },
-                {
                     "name": "PostgreSQL",
                     "icon": "postgres.png",
                     "url": "https://www.postgresql.org/"
@@ -60,8 +194,8 @@
             ]
         },
         {
-            "title": "Práctica Profesional I",
-            "subtitle": "Desarrollador de Videojuegos",
+            "title": "AOne Games",
+            "subtitle": "Práctica Profesional I",
             "date": "Enero 2022 - Febrero 2022",
             "descriptionData": {
                 "description": ["En mi primera práctica profesional trabajé en AOne Games, donde me dediqué al port del juego Omen of Sorrow para Nintendo Switch. Principalmente me dedique a optimizar el juego los casos en que la consola no podía rendir como lo esperado. Se utilizó Unreal Engine 4 (y por ende C++)."]
