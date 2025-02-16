@@ -7,7 +7,7 @@
   
   <Timeline class="border-s-[4px] border-secondary">
     {#each elements as element}
-        <TimelineItem title={`${element.title} - ${element.subtitle}`} date={element.date} 
+        <TimelineItem title={`${element.title}${element.subtitle? ` - ${element.subtitle}`: ''}`} date={element.date} 
           classDiv="bg-primary w-4 h-4 -start-2.5" 
           classTime="text-primary italic text-lg"
           classH3="text-3xl font-bold text-dark"
