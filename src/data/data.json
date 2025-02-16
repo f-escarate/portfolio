@@ -58,7 +58,7 @@
                     },
                     {
                         "name": "C++",
-                        "icon": "c++.png",
+                        "icon": "cpp.png",
                         "url": "https://isocpp.org/"
                     },
                     {
@@ -80,7 +80,7 @@
                 "technologies": [
                     {
                         "name": "C++",
-                        "icon": "c++.png",
+                        "icon": "cpp.png",
                         "url": "https://isocpp.org/"
                     },
                     {
