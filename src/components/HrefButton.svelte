@@ -13,9 +13,9 @@
 
 
 <button 
-    class='h-[90%] rounded-sm transition-transform bg-light hover:bg-light-hover hover:scale-110 lg:px-2 bg-opacity-75'
+    class='h-max py-3 rounded-lg transition-transform bg-light hover:bg-light-hover hover:scale-110 lg:px-4 bg-opacity-75'
     on:click={handleClick}>
-    <p class='text-3xl text-black leading-none'>
+    <p class='text-3xl text-black font-semibold leading-none'>
         {title}
     </p>
     
