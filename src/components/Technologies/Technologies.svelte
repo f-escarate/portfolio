@@ -10,8 +10,8 @@
 </script>
 
 <div class="mt-1 mb-4">
-    <h3>Herramientas, librerías y frameworks:</h3>
-    <div class="flex gap-6 m-2">
+    <h3 class="italic">Herramientas, librerías y frameworks:</h3>
+    <div class="flex gap-6 m-2 flex-wrap">
         {#each technologies as technology}
             <div>
                 <Button href={technology.url} target="_blank" class="hover:opacity-80 hover:scale-90 duration-300 p-0">
