@@ -5,6 +5,7 @@
     import Header from '../components/Header.svelte';
     import Navbar from '../components/Navbar.svelte';
     import { modalData } from "../stores.js";
+    import Character from "../components/Character.svelte";
     
     let modalContent = null;
     let modalVisible = false;
@@ -24,6 +25,7 @@
     <slot />
     <Footer/>
 
+    <Character />
     <Modal bind:open={modalVisible} autoclose outsideclose>
         {#if modalContent}
         <img src={modalContent.src} alt={modalContent.alt} class='rounded-3xl object-contain min-h-[70vh] max-h-[70vh] mx-auto'/>
