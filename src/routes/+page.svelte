@@ -5,7 +5,7 @@
     import education from '../data/education.json'
 </script>
 
-<div class='flex flex-col mx-4 items-start lg:items-center w-[100%]'>
+<div class='flex flex-col px-4 lg:p-0 items-start lg:items-center w-[100%]'>
     <Section id='experience' data={experience}/>
     <Section id='education'  data={education}/>
     <Section id='projects'   data={data['projects']}/>
