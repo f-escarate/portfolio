@@ -9,8 +9,8 @@
                 <img class='h-full w-auto object-cover' src='https://static.wixstatic.com/media/3c6c17_2a09cf727da143b5bfe24b0ebb6b2c90~mv2.png/v1/fill/w_239,h_50,al_c,lg_1,q_85,enc_avif,quality_auto/3c6c17_2a09cf727da143b5bfe24b0ebb6b2c90~mv2.png' alt='Logo'/>
             </button>
             <div class="flex gap-3 h-full items-center">
-                <HrefButton pClass='text-white text-lg' title="About Us" href='www.example.com'/>
-                <HrefButton pClass='text-white text-lg' title="Our Tech" href=''/>
+                <HrefButton pClass='text-white text-lg' title="About Us" href=''/>
+                <HrefButton pClass='text-white text-lg' title="Our Tech" href='https://www.sortile.co/press'/>
                 <HrefButton pClass='text-white text-lg' title="Press"    href=''/>
                 <HrefButton pClass='text-white text-lg' title="Contact"  href=''/>
             </div>
