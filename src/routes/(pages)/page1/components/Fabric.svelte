@@ -91,15 +91,12 @@
         };
     });
 </script>
-<div class="h-[90vh] relative py-auto flex items-center justify-start overflow-hidden">
+<div class="md:h-[90vh] relative py-auto flex items-center justify-start overflow-hidden">
     <canvas bind:this={canvas} class="absolute z-[-1] center-gradient"></canvas>
-    <div class="h-min mx-[10%] max-w-[40%] rounded-with-shadow my-auto p-6 bg-secondary text-white">
+    <div class="h-min mx-[2%] md:mx-[10%] lg:max-w-[40%] rounded-with-shadow my-auto p-6 bg-secondary text-white">
         <div class="flex flex-col items-start justify-center gap-6">
-        
             <h1 class="text-4xl tracking-widest">Making <b>circularity</b> in the fashion industry a reality</h1>
-    
             <p class="text-lg">Sortile empowers the textile recycling industry with technology that enables the identification, sorting and traceability of textiles. Maximizing the recovery of valuable materials and connecting the value chain to enhance circularity.</p>
-    
         </div>
     </div>
 </div>
