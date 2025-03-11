@@ -28,3 +28,6 @@ nav {
 footer {
     background-color: var(--primary);
 }
+.center-gradient {
+    background: radial-gradient(white, #efbaa2, var(--primary));
+}
